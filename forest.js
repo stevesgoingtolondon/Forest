@@ -8,12 +8,12 @@ document.getElementById("bt").addEventListener("click", function(){
     x++
 
     if (x === 2){
-        mainImage.src = "image/forest2.svg" 
+        mainImage.src = "image/forest2.jpg" 
         captionText.textContent = "It's boring out here. Can we go go somewhere else?" 
     }
 
     if (x === 3){
-        mainImage.src = "image/forest3.svg" 
+        mainImage.src = "image/forest3.jpg" 
         captionText.textContent = "Wow, the sun is beating down, huh?"
     }
 
